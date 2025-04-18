@@ -1,43 +1,22 @@
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 // Import Libraries
 import React from "react";
 import Header from "./Header.jsx";
-// Membuat komponen dengan class
+import Footer from "./Footer.jsx";
+import "./App.css";
+import List from "./List.jsx";
 
 // Create Component
 const App = () => {
   return (
-    <div>
-      <h1>Hello React</h1>
-      <Header />
-    </div>
+    <center>
+      <div>
+        <h1>Menu Kami</h1>
+        <Header />
+        <List linkGambar="https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/food1.jpg" />
+        <Footer judul="Halaman Footer" namaMhs="Rofiq" />
+      </div>
+    </center>
   );
 };
 
-// Export Default
 export default App;

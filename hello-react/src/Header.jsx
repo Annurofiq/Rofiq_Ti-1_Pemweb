@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
-class Header extends React.Component {
-    render(){
-      return (
-        <div>
-          <h2>Absen yang buka puasa nya sama Steik  </h2>
-        </div>
-      )
-    }
-  }
+function Header() {
+  const state = useState("ini judul dari state");
 
-  export default Header
+  return (
+    <div>
+      <h3>{state}</h3>
+    </div>
+  );
+}
+
+export default Header;
