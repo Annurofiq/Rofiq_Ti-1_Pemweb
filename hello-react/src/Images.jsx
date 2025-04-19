@@ -1,12 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Images extends Component {
-  render() {
-    return (
-      <img
-      />
-    );
-  }
-}
+function Images ({srcGambar}){
+        return (
+            <img src={srcGambar} alt="Food" width='500' />
+        );
+    }
 
 export default Images;
