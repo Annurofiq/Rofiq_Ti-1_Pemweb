@@ -4,6 +4,7 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import "./App.css";
 import List from "./List.jsx";
+import Top from "./Top.js";
 
 // Create Component
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <div>
         <h1>Menu Kami</h1>
         <Header />
+        <Top />
         <List linkGambar="https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/food1.jpg" />
         <Footer judul="Halaman Footer" namaMhs="Rofiq" />
       </div>
